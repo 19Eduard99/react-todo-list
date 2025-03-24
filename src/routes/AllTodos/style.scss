@@ -1,0 +1,16 @@
+.actions {
+  display: flex;
+  gap: 13px;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ff5722;
+
+  .title,
+  .body {
+    color: #673ab7;
+  }
+}
