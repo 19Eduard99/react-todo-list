@@ -5,9 +5,6 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(() => {
   return {
     plugins: [react()],
-    base:
-      process.env.NODE_ENV === 'production'
-        ? '/react-todo-list/'
-        : '/',
+    base: /react-todo-list/,
   };
 });
